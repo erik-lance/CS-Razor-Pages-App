@@ -25,7 +25,7 @@ namespace CS_Razor_Pages_App
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
         // This method is called by the runtime. Use this method to configure the HTTP request pipeline.
